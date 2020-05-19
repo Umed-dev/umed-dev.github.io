@@ -1,0 +1,568 @@
+@import "media"
+$main-color: #4b9fb4
+$second-color: #ff5656    
+
+=btn_hover 
+  &:hover
+    background-image: none
+    background-color: $main-color
+
+*
+    font-family: 'Roboto', sans-serif
+body
+    font-family: sans-serif, "Varela Round"
+    font-weight: 400
+    ul
+        list-style: none
+    
+nav
+    height: 75px
+    background-color: #000
+    opacity: 1
+    width: 100%    
+    z-index: 2
+    position: fixed
+    top: 0
+    .hamburger
+        display: none 
+    
+    .container
+        display: flex
+        padding-top: 25px
+        .logo_img
+            width: 400px
+        .menu
+            width: 60%
+            display: flex
+            justify-content: space-between
+            .menu_link
+                text-decoration: none
+                color: #fff
+                font-size: 15px
+            .menu_link_6
+                border-left: 1px solid  #fff
+                font-size: 17px
+                color: #ffffff
+                text-decoration: none
+                .fa
+                    padding: 0 5px
+        .dropdown-toggle
+            color: #fff
+            cursor: pointer
+        .nav_item
+            font-size: 15px
+            font-family: sans-serif
+            font-weight: 300            
+            a 
+                color: #fff
+                text-decoration: none
+                font-size: 15px
+            a:hover
+                color: #4b9fb4
+            .nav_link_border
+                border-left: 1px solid #fff
+                padding-left: 10px
+                font-size: 18px
+                .fa
+                    padding-right: 5px
+    
+.header
+    background: url(../images/header_bg.jpg) center (center / cover) no-repeat
+    opacity: 1
+    height: 680px    
+    position: relative 
+    margin-top: 75px   
+    z-index: 1
+    .subheader        
+        position: absolute
+        background-color: rgba(0, 0, 0, 0.65)
+        width: 100%
+        height: 680px
+        top: 0        
+        padding: 110px 0 0 160px
+        color: #fff
+        
+    h1
+        color: #fff
+        font-size: 70px
+        line-height: 75px
+        font-family: Montserrat
+        font-weight: 400
+       
+    .subtitle
+        font-size: 35px
+        font-weight: 200
+    .btn
+        width: 140px
+        height: 45px
+        background: #61c370
+        padding-top: 8px
+        a
+            text-decoration: none
+            color: #fff
+            font-size: 15px
+            font-weight: 600
+            font-family: Montserrat
+    .btn:hover
+        background: $main-color
+        transform: 0.7s
+        border: none
+        outline: none
+.installment
+    text-align: center
+    padding: 30px 0   
+    display: block
+    min-height: 400px
+    background: rgba(255,124,80,0.06)
+    h2
+        font-size: 45px
+        font-weight: 600
+        margin-bottom: 15px
+    &_divider
+        width: 1100px
+        height: 1px
+        background: #000
+        margin: 0 auto
+    &_title
+        margin: 25px auto
+        font-weight: 600
+        font-size: 20px
+        font-family: Roboto
+    &_img
+        img
+            width: 100%
+            height: auto
+    &_name
+        font-weight: 100
+        font-size: 14px
+        margin: 25px 0 20px 0
+        color: #7a7a7a
+        font-family: Roboto
+    &_price
+        font-weight: 600
+        font-family: Roboto
+        font-size: 22px
+    .btn
+        width: 150px
+        height: 40px
+        background: #3c3c3c
+        padding: 6px 24px
+        margin-top: 10px
+        a
+            text-decoration: none
+            color: #fff
+            font-weight: 500
+            font-size: 14px
+.logo
+    padding: 10px 0 70px 0
+    h2
+        text-align: center
+        font-size: 55px
+        color: #3c3c3c
+        font-weight: 600
+        margin-bottom: 80px
+        font-family: sans-serif
+    .phone_car
+        img
+            width: 100%
+            height: auto
+.choose
+    background: #fbfbfb
+    height: 65px
+    h2
+        margin: 0 auto 
+        padding-top: 5px
+        font-size: 48px
+        font-family: sans-serif
+        font-weight: 600
+        color: #171717
+.accent
+    background-color: #000000
+    min-height: 300px
+    .carousel-item img
+        width: 100px
+        min-height: 300px
+    &_title
+        padding: 50px 0 30px 25px
+        font-family: sans-serif
+        font-size: 15px
+        color: #fff
+    h3
+        padding-left: 25px
+        color: #ffffff
+        font-family: sans-serif
+        font-size: 40px
+        font-weight: 600
+    &_subtitle
+        text-align: center
+        padding: 25px 0
+        color: #fff
+        font-size: 16px
+    &_instraction
+        display: flex
+        justify-content: space-around
+        a
+            text-decoration: none
+            color: #fff
+            padding-top: 35px
+    &_link
+        display: flex
+        justify-content: space-around
+        padding-top: 20px
+        padding-bottom: 20px
+        a
+            width: 180px
+            height: 40px
+            background: #fff
+            padding: 8px 23px
+            text-decoration: none
+            color: #212121
+            border-radius: 5px
+            font-weight: 500
+.section-diveder
+    margin: 20px auto
+    width: 98%
+    height: 1px
+    background: #212121
+    
+.elantra
+    background: #fff
+    .carousel-item img
+        height: 350px
+    &_title
+        padding: 50px 0 30px 25px
+        font-family: sans-serif
+        font-size: 15px
+        color: #000   
+    h3
+        padding-left: 25px
+        color: #000
+        font-family: sans-serif
+        font-size: 40px
+        font-weight: 600
+    &_subtitle
+        text-align: center
+        padding: 25px 0
+        color: #000
+        font-size: 16px
+    &_instraction
+        display: flex
+        justify-content: space-around
+        a
+            text-decoration: none
+            color: #000
+            padding-top: 35px
+            font-weight: 500
+    &_link
+        display: flex
+        justify-content: space-around
+        padding-top: 20px
+        padding-bottom: 20px
+        a
+            width: 180px
+            height: 40px
+            background: #212121
+            padding: 8px 23px
+            text-decoration: none
+            color: #fff
+            border-radius: 5px
+            font-weight: 500
+.tucson
+    .carousel-item img
+        width: 100px
+        height: 350px
+.how
+    min-height: 800px
+    padding: 70px 0 20px 0
+    h3
+        text-align: center
+        margin-bottom: 30px
+        font-weight: 600
+        font-size: 65px
+        font-family: roboto
+        color: #000
+    .block
+        border: 1px solid #afafaf
+        background-color: #fcfcfc
+        min-height: 484px
+        width: 520px
+    .block:hover
+        border-color: #61cc70
+        transition: 0.3s
+    .card
+        width: 308px
+        margin: 30px auto
+        border: none
+        background: #fcfcfc
+        &_img
+            text-align: center
+            img
+                
+                width: 60px
+                margin: 30px auto 100px
+        &_title
+            font-size: 26px
+            font-family: Roboto
+            font-weight: 600
+            text-align: center
+            margin-bottom: 25px
+        &_subtitle
+            font-size: 16px
+            color: #bfbfbf
+            font-weight: 600
+            font-family: Roboto
+            text-align: center
+            margin-bottom: 30px
+        &_btn
+            width: 200px
+            height: 40px
+            background: #000000
+            text-align: center
+            margin: 0 auto
+            padding-top: 8px     
+            border-radius: 5px
+            text-transform: uppercase
+            font-weight: 500
+        &_btn:hover
+            background: #61cc80
+            transition: 0.7s         
+        a
+            text-decoration: none
+            color: #fff
+.first_page
+    background: url(../images/header_bg.jpg) center (center / cover) no-repeat
+    opacity: 1
+    height: 680px    
+    position: relative 
+    margin-top: 75px   
+    z-index: 1
+    .subheader        
+        position: absolute
+        background-color: #001035
+        opacity: 0.6
+        width: 100%
+        height: 680px
+    .car_block
+        padding: 230px 0 180px 0
+    .car_title
+        font-size: 22px
+        font-family: Roboto
+        color: #fff
+        margin-bottom: 22px
+    .car_subtitle
+        font-size: 22px
+        color: rgba(255, 255, 255, 0.96)
+        font-weight: 300
+        border-bottom: 1px solid #fff
+        margin-bottom: 10px
+    .car_descr
+        font-size: 22px
+        color: rgba(255, 255, 255, 0.96)
+        font-weight: 300
+        border-bottom: 1px solid #fff
+        margin-bottom: 10px
+    .car_used
+        font-size: 22px
+        color: rgba(255, 255, 255, 0.96)
+        font-weight: 300
+        margin-bottom: 10px
+    .car_follow
+        display: flex
+        justify-content: flex-start
+    .car_social
+        width: 40px
+        height: 40px
+        border-radius: 50%
+        background: #fff
+        text-align: center
+        padding-top: 8px
+        margin-right: 8px
+    .car_social:hover
+        background-color: $main-color
+        a
+            text-decoration: none
+            color: #fff
+        a:hover
+            text-decoration: none
+            color: #FFF
+    .car_media
+        font-size: 18px
+        font-family: Roboto
+        color: #fff
+        font-weight: 400
+        margin-bottom: 28px
+    .border
+        border: 0.5px dotted #fff !important
+    .resrved
+        margin-top: 20px
+        font-size: 13px
+        color: rgba(255, 255, 255, 0.5)
+        
+.price
+    padding: 50px 0 0 0 
+    img
+        width: 550px
+        height: 370px
+    .block
+        padding-top: 80px
+    .group
+        padding: 0 0 5px 10px
+        display: flex
+        justify-content: space-between
+        border-bottom: 2px solid #fcfcfc
+        .right
+            font-size: 18px
+            color: #4a575d
+            font-weight: 400
+        .left
+            font-size: 16px
+            color: #828282
+    .group-green
+        padding: 0 0 5px 10px
+        display: flex
+        justify-content: space-between
+        border-bottom: 2px solid #fcfcfc
+        color: #0fd448
+        font-weight: 500
+    .last
+        display: flex
+        justify-content: flex-end
+    .print
+        font-size: 18px
+        margin-right: 20px
+        a
+            text-decoration: none
+            color: rgba(0, 0, 0, 0.87)
+            font-family: sans-serif
+            .fa
+                color: #e0bb00
+    .order
+        width: 180px
+        height: 37px
+        text-align: center
+        background: #000
+        padding-top: 6px
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.3)
+        a
+            text-decoration: none
+            color: #fff
+            font-weight: 500
+.instraction
+    padding: 40px 0
+    .sales_list
+        .title
+            display: flex
+            justify-content: flex-start
+            .subtitle
+                width: 100%
+                height: 42px
+                background: #dedede
+                color: #1a1a1a
+                text-align: center
+                padding-top: 10px
+                border: 1px solid #fbfbfb
+                border-right-color: white
+                font-weight: 500
+                font-family: Roboto
+        .second_title
+            display: flex
+            justify-content: flex-start
+            color: #a1a1a1
+            font-weight: 500  
+            .subtitle
+                width: 100%
+                height: 42px
+                background: #fff
+                color: #1a1a1a
+                text-align: center
+                padding-top: 10px
+                border: 1px solid #fbfbfb
+.issue
+    text-align: center
+    h4
+        font-weight: 600
+        font-size: 34px
+        text-transform: uppercase
+    .checkout input, .checkout textarea
+        width: 100%
+        height: 74px
+        border: 1px solid #ccc
+        outline: none
+        border-radius: 9px
+        padding-left: 19px
+        font-size: 14px
+        color: #1f2c33
+        margin-bottom: 30px
+    .checkout input::placeholder, .checkout textarea::placeholder
+        color: #1f2c33
+    .checkout textarea
+        padding-top: 20px
+        margin-top: 20px
+        height: 400px  
+    textarea
+        resize: none
+        padding-top: 26px
+        height: 293px
+    .checkout button
+        border: 2px solid transparent
+        transition: 0.7s
+        outline: none
+        font-weight: 700
+        font-size: 14px
+        color: #fff
+        background: #ed4f2e
+        padding: 14px 43px
+        border-radius: 5px
+        margin-bottom: 70px
+
+    .checkout button:hover
+        border-color: #ed4f2e
+        color: #ed4f2e
+        background: #fff
+
+.divider
+    background: #fbfbfb
+    
+    text-align: center
+    margin: 0 auto
+    h5
+        margin: 40px auto
+        padding-top: 60px
+        font-weight: 600
+        font-size: 36px
+.elantra
+   
+    .new_link
+        margin-left: 180px
+        width: 180px
+        height: 40px
+        padding: 8px 25px
+        background: #61ce70
+        a
+            text-decoration: none
+            color: #fff
+
+          
+            
+        
+        
+               
+            
+    
+    
+            
+     
+            
+            
+                
+                    
+                        
+    
+               
+       
+      
+       
+        
+        
+    
+        
